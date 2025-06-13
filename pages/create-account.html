@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create Account - WardMyDrobe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #FFFFFF;
+      color: #000000;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+      width: 100%;
+      max-width: 300px;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    input {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .btn {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      background-color: #000000;
+      color: #ffffff;
+      cursor: pointer;
+      width: 100%;
+      max-width: 300px;
+    }
+    .alt-option {
+      margin-top: 1.5rem;
+      color: #555;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Create an account</h1>
+  <form>
+    <div class="form-group">
+      <label for="email">email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" />
+    </div>
+    <div class="form-group">
+      <label for="password">password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" />
+    </div>
+    <button type="submit" class="btn">Create account</button>
+  </form>
+  <div class="alt-option">or continue without one, the choice is yours.</div>
+</body>
+</html>

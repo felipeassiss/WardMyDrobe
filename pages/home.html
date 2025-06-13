@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home - WardMyDrobe</title>
+  <link href="="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #ffffff;
+      color: #000000;
+      margin: 0;
+      padding: 1.5rem;
+    }
+    .header {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .nav {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 600;
+    }
+    h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: flex;
+      gap: 1rem;
+      overflow-x: auto;
+    }
+    .fit-card {
+      width: 150px;
+      height: 200px;
+      background-color: #eee;
+      border-radius: 8px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">Welcome, <strong>user</strong></div>
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">Create Wardrobe</a>
+  </div>
+
+  <h2>Your recent fits</h2>
+  <div class="gallery">
+    <div class="fit-card">Placeholder</div>
+    <div class="fit-card">Placeholder</div>
+    <div class="fit-card">Placeholder</div>
+  </div>
+
+  <h2>Featured fit inspos</h2>
+  <div class="gallery">
+    <div class="fit-card">Inspo 1</div>
+    <div class="fit-card">Inspo 2</div>
+    <div class="fit-card">Inspo 3</div>
+  </div>
+</body>
+</html>
